@@ -1,0 +1,6 @@
+[submodule "leetcode-python"]
+	path = leetcode-python
+	url = https://github.com/algobot76/leetcode-python
+[submodule "leetcode-java"]
+	path = leetcode-java
+	url = https://github.com/algobot76/leetcode-java
