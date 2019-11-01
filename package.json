@@ -1,11 +1,17 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LeetCode's solutions in Python, Java, and C++",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "Kaitian Xie",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "prettier": "^1.18.2",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-nprogress": "^1.1.4"
+  }
 }
