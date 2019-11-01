@@ -9,4 +9,11 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: ['@vuepress/back-to-top', 'vuepress-plugin-nprogress'],
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '../../'
+      }
+    }
+  }
 }
