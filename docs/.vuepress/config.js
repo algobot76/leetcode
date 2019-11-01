@@ -6,6 +6,7 @@ module.exports = {
     sidebar: [
       ['/problems/1_50', '1 - 50'],
       ['/problems/51_100', '51 - 100'],
+      ['/problems/101_150', '101 - 150'],
       ['/snippets/', 'Snippets'],
     ],
   },
