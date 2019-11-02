@@ -1,5 +1,57 @@
 # Snippets
 
+## C++
+
+### Sorting
+
+#### Sort a vector
+
+```cpp
+vector<int> v = {4,2,5,3,5,8,3};
+sort(v.begin(), v.end());
+sort(v.rbegin(), v.rend()); // reverse v
+```
+
+#### Sort an array
+
+```cpp
+int n = 7; // array size
+int a[] = {4,2,5,3,5,8,3};
+sort(a,a+n);
+```
+
+#### Sort a string
+
+```cpp
+string s = "monkey";
+sort(s.begin(), s.end());
+```
+
+#### Sort structs
+
+```cpp
+struct P {
+    int x, y;
+    bool operator<(const P &p) { // operator< makes it possible to sort structs
+        if (x != p.x) return x < p.x;
+        else return y < p.y;
+    }
+}
+```
+
+#### Use a comparison function
+
+```cpp
+bool comp(string a, string b) {
+    if (a.size() != b.size()) return a.size() < b.size()
+    return a < b;
+}
+
+sort(v.begin(), v.end(), comp);
+```
+
+---
+
 ## Queue
 
 ### Implement a queue
