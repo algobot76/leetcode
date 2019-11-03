@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Problems 451 - 500
+## 451 - 500
 
 ### 464. Sort Integers II
 
@@ -12,7 +12,7 @@
 
 <<< @/lintcode-python/lintcode/463_sort_integers_ii/solution1.py
 
-## Problems 501 - 550
+## 501 - 550
 
 ### 521. Remove Duplicate Numbers in Array
 
