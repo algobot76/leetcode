@@ -2,6 +2,26 @@
 
 [[toc]]
 
+## 101 - 150
+
+### 143. Sort Colors II
+
+[Problem description](https://www.lintcode.com/problem/sort-colors-ii/description)
+
+#### Sorting
+
+Python (Variant 1):
+
+<<< @/lintcode-python/lintcode/143_sort_colors_ii/solution1.py
+
+Python (Variant 2):
+
+<<< @/lintcode-python/lintcode/143_sort_colors_ii/solution2.py
+
+Python (Variant 3):
+
+<<< @/lintcode-python/lintcode/143_sort_colors_ii/solution3.py
+
 ## 451 - 500
 
 ### 464. Sort Integers II
