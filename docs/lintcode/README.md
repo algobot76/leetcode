@@ -2,6 +2,16 @@
 
 [[toc]]
 
+## 1 - 50
+
+### 31. Partition Array
+
+[Problem description](https://www.lintcode.com/problem/partition-array/description)
+
+Python:
+
+<<< @/lintcode-python/lintcode/31_partition_array/solution1.py
+
 ## 101 - 150
 
 ### 143. Sort Colors II
