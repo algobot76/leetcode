@@ -8,7 +8,7 @@
 
 [Problem description](https://www.lintcode.com/problem/partition-array/description)
 
-Python:
+__Python__:
 
 <<< @/lintcode-python/lintcode/31_partition_array/solution1.py
 
@@ -20,15 +20,15 @@ Python:
 
 #### Sorting
 
-Python (Variant 1):
+__Python (Variant 1)__:
 
 <<< @/lintcode-python/lintcode/143_sort_colors_ii/solution1.py
 
-Python (Variant 2):
+__Python (Variant 2)__:
 
 <<< @/lintcode-python/lintcode/143_sort_colors_ii/solution2.py
 
-Python (Variant 3):
+__Python (Variant 3)__:
 
 <<< @/lintcode-python/lintcode/143_sort_colors_ii/solution3.py
 
@@ -40,6 +40,8 @@ Python (Variant 3):
 
 #### Quick Sort
 
+__Python__:
+
 <<< @/lintcode-python/lintcode/463_sort_integers_ii/solution1.py
 
 ## 501 - 550
@@ -50,12 +52,22 @@ Python (Variant 3):
 
 #### Map
 
-Python:
+__Python__:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution1.py
 
 #### Sorting
 
-Python:
+__Python__:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution2.py
+
+### 680. Split String
+
+[Problem description](https://www.lintcode.com/problem/split-string/description?_from=ladder&&fromId=1)
+
+#### DFS
+
+__Python__:
+
+<<< @/lintcode-python/lintcode/680_split_string/solution1.py
