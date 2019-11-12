@@ -1,5 +1,7 @@
 # Snippets
 
+[[toc]]
+
 ## Python
 
 ### Dicts
