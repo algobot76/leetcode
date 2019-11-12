@@ -62,6 +62,24 @@ __Python__:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution2.py
 
+### 544. Top k Largest Numbers
+
+[Problem description](https://www.lintcode.com/problem/top-k-largest-numbers/description)
+
+#### Sorting
+
+__Python__:
+
+<<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution1.py
+
+#### Priority Queue
+
+__Python__:
+
+<<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution2.py
+
+## 651 - 700
+
 ### 680. Split String
 
 [Problem description](https://www.lintcode.com/problem/split-string/description?_from=ladder&&fromId=1)
