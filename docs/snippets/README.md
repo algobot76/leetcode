@@ -1,5 +1,22 @@
 # Snippets
 
+## Python
+
+### Dicts
+
+#### Use `defaultdict` to replace `dict`
+
+```python
+from collections import defaultdict
+
+s = 'mississippi'
+d = defaultdict(int)
+for k in s:
+    d[k] += 1
+
+print(sorted(d.items())) # [('i', 4), ('m', 1), ('p', 2), ('s', 4)]
+```
+
 ## C++
 
 ### Sorting
