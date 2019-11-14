@@ -2,6 +2,7 @@ module.exports = {
   title: 'LeetCode',
   description: 'LeetCode solutions in Python, Java, and C++',
   themeConfig: {
+    repo: 'algobot76/leetcode',
     searchPlaceholder: 'Search...',
     sidebar: [
       ['/problems/1_50', '1 - 50'],
