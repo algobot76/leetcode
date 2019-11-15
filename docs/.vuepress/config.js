@@ -21,9 +21,6 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
-    extendMarkdown: (md) => {
-      md.use(require('markdown-it-vuepress-code-snippet-enhanced'))
-    },
   },
   plugins: ['@vuepress/back-to-top', 'vuepress-plugin-nprogress'],
   configureWebpack: {
