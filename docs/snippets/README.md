@@ -25,6 +25,48 @@ Override `__lt__` method of a class such that its objects can be used for compar
 
 See: [23. Merge k Sorted Lists](/problems/1_50.md#_23-merge-k-sorted-lists)
 
+## Java
+
+### Maps
+
+```java
+var staff = new HashMap<String, Employee>();
+staff.put("144-25-5464", new Employee("Amy Lee"));
+staff.put("567-24-2546", new Employee("Harry Hacker"));
+staff.put("157-62-7935", new Employee("Gary Cooper"));
+staff.put("456-62-5527", new Employee("Francesca Cruz"));
+
+// print all entries
+System.out.println(staff);
+
+// remove an entry
+staff.remove("567-24-5462");
+
+// replace an entry
+staff.put("456-62-5527", new Employee("Francesca Miller"));
+
+// look up a value
+System.out.println(staff.get("157-62-7935"));
+
+// iterate through all entries
+staff.forEach((k, v) -> System.out.println("key=" + k + ", value=" + v));
+```
+
+- `java.util.Map<K, V>`
+  - `V get(Object key)`: gets the value associated with the key.
+  - `default V getOrDefault(Object key, V defaultValue)`: gets the value associated with the key.
+  - `V put(K key, V value)`: puts the association of a key and a value into a map.
+  - `void putAll(Map<? extends K, ? extends V>) entries`: adds all entries from the specified map to this map.
+  - `boolean containsKey(Object key)`: returns `true` if the key is present in the map.
+  - `default void forEach(BiConsumer<? super K, ? super V> action)`: applies the action to all key/value pairs of this map.
+  - `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunctoin)`: If the specified key is not already associated with a value or is associated with `null`, associates it with the given non-`null` value. Otherwise, replaces the associated value with the results of the given remapping function, or removes if the result is `null`.
+  - `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)`: Applies the function to `key` and `get(key)`. Either associates `key` with the result or, if the result is `null`, removes the key. Returns `get(key)`.
+  - `default V computeIfPresent(K key, Function<? super K, ? super V, ? extends V> mappingFunction)`:
+
+#### References
+
+- Core Java Vol. 1 (11th Version)
+
 ## C++
 
 ### Sorting
