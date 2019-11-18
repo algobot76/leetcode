@@ -4,6 +4,12 @@
 
 ## Python
 
+### Numbers
+
+#### Maximum integer
+
+Use `sys.maxsize` to represent the maximum integer.
+
 ### Lists
 
 #### Concatenate two lists
