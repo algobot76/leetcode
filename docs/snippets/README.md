@@ -30,6 +30,21 @@ for k in s:
 print(sorted(d.items())) # [('i', 4), ('m', 1), ('p', 2), ('s', 4)]
 ```
 
+### Strings
+
+#### Check a string is digital or alphabetical
+
+```python
+'ABCabc1'.isalnum() // True
+'ABC abc1'.isalnum() // False
+
+'ABCabc'.isalpha() // True
+'ABCabc1'.isalpha() // False
+
+'1234'.isdigit() // True
+'1.23'.isdigit() // False
+```
+
 ### `__lt__`
 
 Override `__lt__` method of a class such that its objects can be used for comparisons.
