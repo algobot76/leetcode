@@ -17,6 +17,16 @@ l3 = l1 + l2 // [1, 2, 3, 4, 5, 6]
 
 ### Dicts
 
+#### Iterate through a dict
+
+```python
+for key in a_dict:
+    // ...
+
+for key, value in a_dict.items():
+    // ...
+```
+
 #### Use `defaultdict` to replace `dict`
 
 ```python
