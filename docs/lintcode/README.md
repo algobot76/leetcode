@@ -102,6 +102,10 @@ Python:
 
 <<< @/lintcode-python/lintcode/612_k_closest_points/solution1.py
 
+Java:
+
+<<< @/lintcode-java/src/com/algobot76/lintcode/_612/Solution1.java
+
 ## 651 - 700
 
 ### 680. Split String
