@@ -7,3 +7,6 @@
 [submodule "lintcode-python"]
 	path = lintcode-python
 	url = https://github.com/algobot76/lintcode-python
+[submodule "lintcode-java"]
+	path = lintcode-java
+	url = https://github.com/algobot76/lintcode-java.git
