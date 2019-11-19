@@ -90,6 +90,18 @@ Python:
 
 <<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution2.py
 
+## 601 - 650
+
+### 612. K Closest Points
+
+[Problem description](https://www.lintcode.com/problem/k-closest-points/description)
+
+#### Priority Queue
+
+Python:
+
+<<< @/lintcode-python/lintcode/612_k_closest_points/solution1.py
+
 ## 651 - 700
 
 ### 680. Split String
