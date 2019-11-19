@@ -8,7 +8,7 @@
 
 [Problem description](https://www.lintcode.com/problem/partition-array/description)
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/31_partition_array/solution1.py
 
@@ -40,7 +40,7 @@ __Python (Variant 3)__:
 
 #### Quick Sort
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/463_sort_integers_ii/solution1.py
 
@@ -52,13 +52,13 @@ __Python__:
 
 #### Map
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution1.py
 
 #### Sorting
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution2.py
 
@@ -80,13 +80,13 @@ Java:
 
 #### Sorting
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution1.py
 
 #### Priority Queue
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution2.py
 
@@ -98,6 +98,6 @@ __Python__:
 
 #### DFS
 
-__Python__:
+Python:
 
 <<< @/lintcode-python/lintcode/680_split_string/solution1.py
