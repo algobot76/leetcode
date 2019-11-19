@@ -61,6 +61,13 @@ print(sorted(d.items())) # [('i', 4), ('m', 1), ('p', 2), ('s', 4)]
 '1.23'.isdigit() // False
 ```
 
+#### Find the last index of character in a string
+
+```python
+s = 'abcad'
+s.rfind('a') // 3
+```
+
 ### `__lt__`
 
 Override `__lt__` method of a class such that its objects can be used for comparisons.
