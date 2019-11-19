@@ -62,6 +62,18 @@ __Python__:
 
 <<< @/lintcode-python/lintcode/521_remove_duplicate_numbers_in_array/solution2.py
 
+### 533. Two Sum - Closest to target
+
+#### Two Pointers
+
+Python:
+
+<<< @/lintcode-python/lintcode/533_two_sum_closest_to_target/solution1.py
+
+Java:
+
+<<< @/lintcode-java/src/com/algobot76/lintcode/_533/Solution1.java
+
 ### 544. Top k Largest Numbers
 
 [Problem description](https://www.lintcode.com/problem/top-k-largest-numbers/description)
