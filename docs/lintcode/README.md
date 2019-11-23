@@ -100,6 +100,16 @@ Python:
 
 <<< @/lintcode-python/lintcode/587_two_sum_unique_pairs/solution1.py
 
+### 598. Zombie in Matrix
+
+[Problem description](https://www.lintcode.com/problem/zombie-in-matrix/description)
+
+#### BFS
+
+Python:
+
+<<< @/lintcode-python/lintcode/598_zombie_in_matrix/solution1.py
+
 ## 601 - 650
 
 ### 612. K Closest Points
