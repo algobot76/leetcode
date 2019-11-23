@@ -90,6 +90,16 @@ Python:
 
 <<< @/lintcode-python/lintcode/544_top_k_largest_numbers/solution2.py
 
+## 551 - 600
+
+### 587. Two Sum - Unique pairs
+
+#### Two Pointers
+
+Python:
+
+<<< @/lintcode-python/lintcode/587_two_sum_unique_pairs/solution1.py
+
 ## 601 - 650
 
 ### 612. K Closest Points
