@@ -805,6 +805,17 @@ class ResultType {
 
 ### Move in 4 directions
 
+Python:
+
+```python
+dirs = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+for dir in dirs:
+    nx = point[0] + dir[0]
+    ny = point[1] + dir[1]
+```
+
+Java:
+
 ```java
 int[] dx = {1, 0, -1, 0};
 int[] dy = {0, 1, 0, -1};
