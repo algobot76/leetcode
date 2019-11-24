@@ -6,9 +6,13 @@
 
 ### Numbers
 
-#### Maximum integer
+#### Maximum/Minimum integers
 
-Use `sys.maxsize` to represent the maximum integer.
+```python
+import sys
+max = sys.maxsize
+min = -sys.maxsize -1
+```
 
 ### Lists
 
