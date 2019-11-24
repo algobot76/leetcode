@@ -22,6 +22,7 @@ module.exports = {
       ['/problems/901_950', '901 - 950'],
       ['/problems/951_1000', '951 - 1000'],
       ['/problems/1051_1100', '1051 - 1100'],
+      ['/problems/1101_1150', '1101 - 1150'],
       ['/lintcode/', 'LintCode'],
       ['/snippets/', 'Snippets'],
     ],
