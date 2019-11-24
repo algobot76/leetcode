@@ -137,3 +137,15 @@ Java:
 Python:
 
 <<< @/lintcode-python/lintcode/680_split_string/solution1.py
+
+## 1301 - 1350
+
+### 1373. Movies on Flight
+
+[Problem description](https://www.lintcode.com/problem/movies-on-flight/description)
+
+#### Two Pointers
+
+Python:
+
+<<< @/lintcode-python/lintcode/1373_movies_on_flight/solution1.py
